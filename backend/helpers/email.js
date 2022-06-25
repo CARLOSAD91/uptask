@@ -22,7 +22,7 @@ export const emailRegistro = async (datos) => {
     text: "Comprueba tu cuenta en UpTask",
     html: `<p>Hola: ${nombre} Comprueba tu cuenta en UpTask</p>
       <p>Tu cuenta ya esta casi lista, solo debes comprobarla en el sgt enlace:
-      <a href = "${process.env.FRONTEND_URL}/confirmar/${token}">Comprobar Cuenta</a>
+      <a href = "https://frontenduptask.vercel.app/confirmar/${token}">Comprobar Cuenta</a>
       <p>Si tu no creaste esta cuenta, puedes ignorar el mensaje</p>
       </p>`
   })
