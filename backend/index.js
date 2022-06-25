@@ -13,7 +13,6 @@ dotenv.config()
 
 conectarDB();
 
-
 app.use(cors())
 
 // Routing
